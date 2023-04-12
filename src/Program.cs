@@ -38,6 +38,7 @@ app.MapPost("/person", async (IValidator<Person> validator, Person person) =>
 .WithName("Person")
 .WithOpenApi();
 
+//ValidateAndThrowAsync
 app.MapPost("/personThrow", async (IValidator<Person> validator, Person person) =>
 {
     await validator.ValidateAndThrowAsync(person);
