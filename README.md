@@ -1,6 +1,6 @@
 # FluentValidationSample
 
-Demonstração da diferença dos Tempos de Vida dos Serviços (ServiceLifeTime) do .Net
+Demonstração da validação do modelo utilizando Validators (FluentValidation)
 
 
 Referências
