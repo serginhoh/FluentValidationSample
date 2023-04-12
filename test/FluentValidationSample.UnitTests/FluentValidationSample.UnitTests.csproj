@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\FluentValidationSample.csproj" />
+    <ProjectReference Include="..\..\src\FluentValidationSample\FluentValidationSample.csproj" />
   </ItemGroup>
 
 </Project>
